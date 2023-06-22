@@ -3,8 +3,8 @@
       {
         "tag": "GetFit_intro",
         "patterns": [
-          "Introduction to getfit gym?",
-          "When was Getfit founded?",
+          "About get fit gym club?",
+          "When was Getfit Club founded?",
           "Tell me about getfit gym"
         ],
         "responses": [
@@ -16,7 +16,7 @@
         "tag": "GetFit_service",
         "patterns": [
           "Services available.",
-          "What services does Getfit gym have?"
+          "What services does Getfit gym club have?"
         ],
         "responses": [
           "Get-fit gym cung cấp nhiều dịch vụ cho bạn những sự lựa chọn phù hợp nhất: Zumba dance, Khóa Yoga master class, Khóa Yoga 1 kèm 1, huấn luyện viên PT cá nhân, Khóa Boxing, EMS (Miha BodyTec), Gentle Yoga, Cardio hit, Ashtanga Yoga, Spinning class, Aerobic dance, Sexy dance, Therapy Yoga, Vinyasa Flow, Hatha Yoga, Balance Yoga.",
@@ -28,7 +28,7 @@
         "patterns": [
           "What is the infrastructure of getfit gym?",
           "Getfit gym ecosystem",
-          "What does Getfit gym have?"
+          "What facilities does Getfit gym club have?"
         ],
         "responses": [
           "Get-fit gym & Yoga có các trung tâm thể dục thể hình trên địa bàn thành phố Hồ  Chí Minh, trung tâm chăm sóc sức khỏe sắc đẹp Getfit Beauty và có cả Viện đào tạo và nghiên cứu thể thao Getfit Academy.",
@@ -38,8 +38,8 @@
       {
         "tag": "GetFit_goal",
         "patterns": [
-          "What is the goal of Getfit gym?",
-          "What goal does Getfit gym aim for?"
+          "What is the goal of the Getfit gym club?",
+          "What is the Getfit gym club aimed at?"
         ],
         "responses": [
           "Getfit Gym & Yoga đặt mục tiêu luôn nằm trong top những phòng tập đẳng cấp nhất Việt Nam. Trong hơn một thập kỷ phát triển, Getfit dần chứng minh khi ngày càng mở rộng khi tăng cường các bộ môn đặc biệt như Miha Bodytec (EMS), Golf 3D...",
@@ -49,8 +49,8 @@
       {
         "tag": "GetFit_Special",
         "patterns": [
-          "What are the highlights that Getfit gym owns?",
-          "Is Getfit gym better than other competitors?"
+          "What are the highlights that the Getfit gym club owns?",
+          "Getfit gym club better than other competitors?"
         ],
         "responses": [
           "Phòng tập thể hình đầu tiên áp dụng công nghệ Miha Bodytec (EMS) vào tập luyện. Getfit Gym & Yoga là nền tảng mở rộng hệ sinh thái với hàng loạt các dịch vụ thư giãn, giải trí hấp dẫn. Golf 3D là một bước tiến công nghệ đáng chú ý nằm trong hệ thống các phòng tập trên 1.500 m2.",
@@ -60,8 +60,8 @@
       {
         "tag": "GetFit_Vision",
         "patterns": [
-          "What is the strategic vision of Getfit gym?",
-          "What is the development orientation of Getfit gym?"
+          "What is the strategic vision of Getfit gym club?",
+          "What is the development orientation of Getfit gym club?"
         ],
         "responses": [
           "Getfit giữ vững trong top đầu những thương hiệu Fitness tại Việt Nam. Áp dụng công nghệ tiên tiến nhất thế giới vào việc xây dựng thể chất người Việt. Getfit không ngừng mở rộng và đầu tư cơ sở vật chất, chất lượng dịch vụ và chuyên môn huấn luyện viên. Khẳng định sự phát triển bền vững một thương hiệu Việt.",
@@ -71,8 +71,8 @@
       {
         "tag": "GetFit_core",
         "patterns": [
-          "What are the core values of Getfit gym?",
-          "What core values does Getfit gym have?"
+          "What is the core value of Getfit gym club?",
+          "What core values does Getfit gym club have?"
         ],
         "responses": [
           "Giá trị cốt lõi mà Getfit Gym & Yoga luôn đảm bảo là luôn trân trọng, thấu hiểu khách hàng để cung cấp dịch vụ chất lượng và phù hợp nhất đối với từng khách hàng. Chúng tôi luôn không ngừng học hỏi và phát triển những công nghệ tiên tiến hàng đầu thế giới. Chúng tôi luôn trân trọng nhân viên, họ là tài sản quý giá mà doanh nghiệp đang sở hữu. Chúng tôi luôn đề cao tính nhất quán và chất lượng, đặt uy tín lên hàng đầu. Chúng tôi đề cao tinh thần đồng đội và luôn vui vẻ cùng nhau tạo nên không khí hài hòa, dễ chịu khi cùng nhau tập luyện, cùng nhau hướng đến sức khỏe và hạnh phúc.",
@@ -82,8 +82,8 @@
       {
         "tag": "GetFit_location",
         "patterns": [
-          "Where can I go to the gym?",
-          "What branches does Getfit gym have?"
+          "Where can I practice?",
+          "What branches does Getfit gym club have?"
         ],
         "responses": [
           "Hiện tại Getfit Gym và Yoga đã có 3 chi nhánh: Chi nhánh Oriental (Tân Phú). Địa chỉ: Lầu M (lầu 1) Oriental Plaza, 685  u Cơ, P.Tân Thành,Q.Tân Phú.Bạn có thể liên lạc qua số điện thoại:0977699490. Chi nhánh Mia Center. Địa chỉ Lầu 4, Saigon Mia Center, 202 Đường số 9A, KDC Trung Sơn. Điện thoại:0966111241. Và Chi nhánh Hoàng Diệu Lầu 3, Cao Ốc H3, 384 Hoàng Diệu, Phường 6, Quận 4, TP. HCM.Điện thoại:0988499745",
