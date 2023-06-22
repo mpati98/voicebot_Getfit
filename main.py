@@ -97,6 +97,33 @@ def chat_rulebased_01(msg):
         tag = "GetFit_gym_definition" 
     return res, tag
 
+def chat_rulebased_02(msg):
+    if "dịch vụ" in msg.lower():
+        res = ["Get-fit gym cung cấp nhiều dịch vụ cho bạn những sự lựa chọn phù hợp nhất: Zumba dance, Khóa Yoga master class, Khóa Yoga 1 kèm 1, huấn luyện viên PT cá nhân, Khóa Boxing, EMS (Miha BodyTec), Gentle Yoga, Cardio hit, Ashtanga Yoga, Spinning class, Aerobic dance, Sexy dance, Therapy Yoga, Vinyasa Flow, Hatha Yoga, Balance Yoga.", "907edbd0-47d5-4394-8d17-9cb74da1677e"]
+        tag = "GetFit_service"
+    elif "cơ sở" in msg.lower():
+        res = ["Get-fit gym & Yoga có các trung tâm thể dục thể hình trên địa bàn thành phố Hồ  Chí Minh, trung tâm chăm sóc sức khỏe sắc đẹp Getfit Beauty và có cả Viện đào tạo và nghiên cứu thể thao Getfit Academy.", "9deb2e48-cdbb-4fc0-afbb-2519dd06c24e"]
+        tag = "GetFit_system" 
+    elif "mục tiêu" in msg.lower():
+        res = ["Getfit Gym & Yoga đặt mục tiêu luôn nằm trong top những phòng tập đẳng cấp nhất Việt Nam. Trong hơn một thập kỷ phát triển, Getfit dần chứng minh khi ngày càng mở rộng khi tăng cường các bộ môn đặc biệt như Miha Bodytec (EMS), Golf 3D...", "459a563d-7fc6-493d-961a-1c079ae8fd76"]
+        tag = "GetFit_goal" 
+    elif "nổi bật" in msg.lower() or "tốt" in msg.lower():
+        res = ["Phòng tập thể hình đầu tiên áp dụng công nghệ Miha Bodytec (EMS) vào tập luyện. Getfit Gym & Yoga là nền tảng mở rộng hệ sinh thái với hàng loạt các dịch vụ thư giãn, giải trí hấp dẫn. Golf 3D là một bước tiến công nghệ đáng chú ý nằm trong hệ thống các phòng tập trên 1.500 m2.", "59c73666-4beb-45eb-8e64-ff4e2e90ca6e"]
+        tag = "GetFit_Special" 
+    elif "tầm nhìn" in msg.lower() or "định hướng" in msg.lower():
+        res = ["Getfit giữ vững trong top đầu những thương hiệu Fitness tại Việt Nam. Áp dụng công nghệ tiên tiến nhất thế giới vào việc xây dựng thể chất người Việt. Getfit không ngừng mở rộng và đầu tư cơ sở vật chất, chất lượng dịch vụ và chuyên môn huấn luyện viên. Khẳng định sự phát triển bền vững một thương hiệu Việt.", "c956ed1b-89a5-4e69-aeaa-5f8c6d58cd21"]
+        tag = "GetFit_Vision" 
+    elif "giá trị" in msg.lower():
+        res = ["Giá trị cốt lõi mà Getfit Gym & Yoga luôn đảm bảo là luôn trân trọng, thấu hiểu khách hàng để cung cấp dịch vụ chất lượng và phù hợp nhất đối với từng khách hàng. Chúng tôi luôn không ngừng học hỏi và phát triển những công nghệ tiên tiến hàng đầu thế giới. Chúng tôi luôn trân trọng nhân viên, họ là tài sản quý giá mà doanh nghiệp đang sở hữu. Chúng tôi luôn đề cao tính nhất quán và chất lượng, đặt uy tín lên hàng đầu. Chúng tôi đề cao tinh thần đồng đội và luôn vui vẻ cùng nhau tạo nên không khí hài hòa, dễ chịu khi cùng nhau tập luyện, cùng nhau hướng đến sức khỏe và hạnh phúc.", "16040a16-9c79-406c-92b8-f81e18bfbcb5"]
+        tag = "GetFit_core" 
+    elif "chi nhánh" in msg.lower():
+        res = ["Hiện tại Getfit Gym và Yoga đã có 3 chi nhánh: Chi nhánh Oriental (Tân Phú). Địa chỉ: Lầu M (lầu 1) Oriental Plaza, 685  u Cơ, P.Tân Thành,Q.Tân Phú.Bạn có thể liên lạc qua số điện thoại:0977699490. Chi nhánh Mia Center. Địa chỉ Lầu 4, Saigon Mia Center, 202 Đường số 9A, KDC Trung Sơn. Điện thoại:0966111241. Và Chi nhánh Hoàng Diệu Lầu 3, Cao Ốc H3, 384 Hoàng Diệu, Phường 6, Quận 4, TP. HCM.Điện thoại:0988499745", "a27715c8-1f0d-42b3-aa00-2d7b6a7015d1"]
+        tag = "GetFit_location" 
+    else:
+        res = ["Getfit Gym & Yoga thành lập năm 2010, Getfit nhanh chóng trở thành một trong những thương hiệu Fitness lớn nhất Việt Nam. Với cơ sở vật chất đẳng cấp, thiết bị luyện tập thể thao hiện đại, đội ngũ Huấn luyện viên có chuyên môn, Getfit tạo dấu ấn đặc biệt trong giới thể hình Việt.", "d3952052-055f-4dc6-a072-51e924257c78"]
+        tag = "GetFit_intro" 
+    return res, tag
+
 
 app = Flask(__name__)
 api = Api(app)
@@ -123,6 +150,8 @@ class Chatbot(Resource):
         text_input = request.get_json().get("message")
         if "ghim" in text_input.lower() or "diêm" in text_input.lower():
             resp, tag = chat_rulebased_01(text_input)
+        elif "câu lạc bộ" in text_input.lower():
+            resp, tag = chat_rulebased_02(text_input)
         else:
             text_input = transText(text_input)
             try:
